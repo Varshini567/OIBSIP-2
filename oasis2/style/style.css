@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navy nav{
+    text-align: center;
+    padding:15px;
+}
+.navy nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.navy nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:10px 20px 10px;
+    border-radius: 6px;
+    border-width: 5px;
+    border-color: violet;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    box-shadow: 0 0 15px violet;
+}
+.navy nav ul li a:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px violet;
+    padding :10px;
+    border-radius: 8px;
+    border: solid violet;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: -70px auto;
+    width: 70%;
+    gap:10px;
+}
+.container img{
+    max-width: 320px;
+    float: right;
+    height: 250px;
+    width: 250px;
+}
+.container h2{
+    color: white;
+    margin: 0;
+}
+.container p{
+    color: white;
+    margin-right: 20px;
+    margin-left:10px;
+}
+.photos{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+.photos img {
+    grid-area: 1/1;
+}
+.photos img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px violet;
+    border-radius: 50%;
+}
+button{
+    padding:10px 20px 10px;
+    border-radius: 6px;
+    border-width: 5px;
+    border-color: violet;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    box-shadow: 0 0 15px violet;
+}
+.btn button:hover{
+    background-color: violet;
+}
+.btn{
+    position:relative;
+    left:45%;
+    top:-90px;
+}
